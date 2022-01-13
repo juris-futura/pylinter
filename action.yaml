@@ -1,0 +1,9 @@
+name: Python Linter
+description: Python code quality checker with Black
+branding:
+  icon: activity
+  color: green
+
+runs:
+  using: Docker
+  image: Dockerfile
